@@ -1,0 +1,56 @@
+@import "./side-row.scss";
+
+.menu-page {
+	position: relative;
+	height: 100%;
+	width: 100%;
+
+	.about-items {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-flow: column;
+
+		.wings-description {
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+			align-items: center;
+			.wings-description-header {
+				text-transform: uppercase;
+				font-size: 30px;
+				color: #414141;
+				text-align: center;
+			}
+
+			.wings-description-paragraph {
+				text-align: justify;
+				font-size: 18px;
+				width: 80%;
+			}
+		}
+	}
+
+	.wings-picture {
+		margin-top: 2rem;
+		width: 80%;
+		height: 180px;
+		background-color: #8e82b8;
+	}
+
+	.side-divider {
+		margin: 3em auto;
+		width: 80%;
+		height: 10vh auto;
+		background-color: #8e82b8;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+
+		h1 {
+			font-size: 25px;
+			margin: 0.5rem;
+			color: rgb(248, 248, 248);
+		}
+	}
+}

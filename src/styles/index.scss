@@ -1,5 +1,6 @@
 @import "./landing.scss";
 @import "./about.scss";
+@import "./menu.scss";
 
 body {
 	margin: 0;
@@ -12,6 +13,7 @@ body {
 .menu-divider {
 	position: relative;
 	margin-top: 3em;
+	margin-bottom: 1em;
 	width: 100%;
 	height: 10vh;
 	background-color: #8e82b8;

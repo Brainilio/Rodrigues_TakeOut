@@ -30,6 +30,57 @@ function App() {
 			<div className='menu-divider'>
 				<h1>MENU</h1>
 			</div>
+			<div className='menu-page'>
+				<div className='about-items'>
+					{/* description */}
+					<div className='wings-description'>
+						<h1 className='wings-description-header'>RODRIGUES' WINGS</h1>
+						<p className='wings-description-paragraph'>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+							quisquam voluptatem voluptates dignissimos saepe incidunt vitae,
+							culpa nostrum earum voluptatum doloremque ab mollitia, deleniti
+							totam optio ipsam facere id recusandae.
+						</p>
+					</div>
+					<div className='wings-picture'></div>
+				</div>
+
+				{/* choose your size */}
+
+				<div className='side-divider'>
+					<h1>CHOOSE YOUR SIZE</h1>
+				</div>
+
+				{/* size row */}
+				<div className='size-row'>
+					{/* Single item */}
+					<div className='chicken-item-size'>
+						<div className='chicken-item-picture'></div>
+						{/* Single item description  */}
+						<span>Regular</span>
+						<h3>48 Wings</h3>
+						<h1>€25</h1>
+					</div>
+					<div className='chicken-item-size'>
+						<div className='chicken-item-picture'></div>
+						{/* Single item description  */}
+						<span>Regular</span>
+						<h3>48 Wings</h3>
+						<h1>€25</h1>
+					</div>
+					<div className='chicken-item-size'>
+						<div className='chicken-item-picture'></div>
+						{/* Single item description  */}
+						<span>Regular</span>
+						<h3>48 Wings</h3>
+						<h1>€25</h1>
+					</div>
+				</div>
+
+				<div className='side-divider'>
+					<h1>KICK UP SOME SAUCE</h1>
+				</div>
+			</div>
 		</>
 	)
 }
