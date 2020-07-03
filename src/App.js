@@ -27,6 +27,9 @@ function App() {
 				</div>
 				<div className='picture'></div>
 			</div>
+			<div className='menu-divider'>
+				<h1>MENU</h1>
+			</div>
 		</>
 	)
 }
