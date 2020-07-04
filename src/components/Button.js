@@ -1,7 +1,11 @@
 import React from "react"
 
 const Button = (props) => {
-	return <h1>Hi</h1>
+	return (
+		<button onClick={props.clicked} className='cta--buton'>
+			<strong>{props.children}</strong>
+		</button>
+	)
 }
 
 export default Button

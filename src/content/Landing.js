@@ -1,5 +1,7 @@
 import React from "react"
 
+import Button from "../components/Button"
+
 const Landing = (props) => {
 	return (
 		<div className='landing'>
@@ -7,9 +9,7 @@ const Landing = (props) => {
 				<h1>Rodrigues</h1>
 				<span>Takeout</span>
 			</div>
-			<button>
-				<strong>SEE MENU</strong>
-			</button>
+			<Button>SEE MENU</Button>
 		</div>
 	)
 }

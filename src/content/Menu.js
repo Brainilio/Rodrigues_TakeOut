@@ -28,11 +28,11 @@ const Menu = (props) => {
 				<MenuDivider title='CHOOSE YOUR SAUCE' />
 				<div className='size-row'>
 					<CardSauce sauceName="Hot 'n Spicy" />
-					<CardSauce sauceName="Hot 'n Spicy" />
-					<CardSauce sauceName="Hot 'n Spicy" />
-					<CardSauce sauceName="Hot 'n Spicy" />
-					<CardSauce sauceName="Hot 'n Spicy" />
-					<CardSauce sauceName="Hot 'n Spicy" />
+					<CardSauce sauceName='Garlic & Herbs' />
+					<CardSauce sauceName='Original BBQ' />
+					<CardSauce sauceName="Sweet 'n Spicy" />
+					<CardSauce sauceName='Teriyaki Glaze' />
+					<CardSauce sauceName='Maple BBQ' />
 				</div>
 			</div>
 		</>
