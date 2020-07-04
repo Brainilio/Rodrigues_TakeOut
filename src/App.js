@@ -76,9 +76,52 @@ function App() {
 						<h1>€25</h1>
 					</div>
 				</div>
-
 				<div className='side-divider'>
 					<h1>KICK UP SOME SAUCE</h1>
+				</div>
+				{/* Sauce row */}
+				<div className='size-row'>
+					{/* Single item */}
+					<div className='chicken-item-size'>
+						<div className='chicken-item-picture'></div>
+						{/* Single item description  */}
+						<h3>48 Wings</h3>
+					</div>
+					<div className='chicken-item-size'>
+						<div className='chicken-item-picture'></div>
+						{/* Single item description  */}
+						<h3>48 Wings</h3>
+					</div>
+					<div className='chicken-item-size'>
+						<div className='chicken-item-picture'></div>
+						{/* Single item description  */}
+						<h3>48 Wings</h3>
+					</div>
+					<div className='chicken-item-size'>
+						<div className='chicken-item-picture'></div>
+						{/* Single item description  */}
+						<h3>48 Wings</h3>
+					</div>
+					<div className='chicken-item-size'>
+						<div className='chicken-item-picture'></div>
+						{/* Single item description  */}
+						<h3>48 Wings</h3>
+					</div>
+					<div className='chicken-item-size'>
+						<div className='chicken-item-picture'></div>
+						{/* Single item description  */}
+						<h3>48 Wings</h3>
+					</div>
+				</div>
+				<div className='order-box'>
+					<h1>ORDER NOW</h1>
+					<span className='description-order'>
+						Please order ahead of time! <br /> Questions or ready to order?
+					</span>
+					<i className='fa fa-whatsapp'></i>
+					<span className='telephone-number'>
+						<a href='tel:+31634500512'>+31634500512</a>
+					</span>
 				</div>
 			</div>
 		</>
