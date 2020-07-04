@@ -5,6 +5,13 @@
 	width: 100%;
 	height: 100%;
 
+	@include screenm {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-flow: column;
+	}
+
 	.about-text {
 		align-items: center;
 		display: flex;
@@ -15,12 +22,21 @@
 			font-size: 30px;
 			color: rgb(65, 65, 65);
 			text-align: center;
+
+			@include screenm {
+				font-size: 40px;
+			}
 		}
 
 		.about-text-paragraph {
 			text-align: justify;
 			font-size: 18px;
 			width: 80%;
+
+			@include screenm {
+				width: 50%;
+				font-size: 20px;
+			}
 		}
 
 		.see-menu {
@@ -43,8 +59,12 @@
 	.picture {
 		display: none;
 		margin-top: 2em;
-		width: 100%;
+		width: 250px;
 		height: 250px;
 		background: #8e82b8;
+
+		@include screenm {
+			display: block;
+		}
 	}
 }

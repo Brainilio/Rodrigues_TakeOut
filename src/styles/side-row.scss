@@ -8,6 +8,11 @@
 	align-items: center;
 	flex-flow: column;
 
+	@include screenm {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
 	.chicken-item-size {
 		display: flex;
 		align-items: center;
@@ -25,13 +30,23 @@
 		span {
 			margin-top: 5px;
 			margin-bottom: 0;
+			@include screenm {
+				font-size: 18px;
+			}
 		}
 		h3 {
 			margin: 5px 0;
+			@include screenm {
+				font-size: 25px;
+			}
 		}
 		h1 {
 			margin: 10px 0;
 			color: #8e82b8;
+
+			@include screenm {
+				font-size: 40px;
+			}
 		}
 	}
 }
