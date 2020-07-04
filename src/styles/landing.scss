@@ -49,8 +49,7 @@
 
 	button {
 		cursor: pointer;
-		position: absolute;
-		bottom: 5em;
+		bottom: 3em;
 		font-size: 20px;
 		width: 140px;
 		height: 70px;
@@ -58,6 +57,7 @@
 		background: none;
 		border: 2px solid rgb(248, 248, 248);
 		transition: all 0.3s ease-in;
+		margin-top: 4em;
 
 		@include screenm {
 			width: 160px;
