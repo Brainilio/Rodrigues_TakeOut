@@ -15,6 +15,11 @@
 		font-size: 28px;
 	}
 
+	@include screenl {
+		width: 40%;
+		margin: 2em auto;
+	}
+
 	.description-order {
 		text-align: center;
 		font-size: 18px;
@@ -31,6 +36,10 @@
 		@include screenm {
 			font-size: 120px;
 		}
+
+		@include screenl {
+			font-size: 180px;
+		}
 	}
 	.telephone-number {
 		margin-bottom: 2rem;
@@ -41,6 +50,10 @@
 			@include screenm {
 				font-size: 35px;
 			}
+		}
+
+		@include screenl {
+			margin-bottom: 3rem;
 		}
 	}
 }

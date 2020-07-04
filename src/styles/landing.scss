@@ -26,6 +26,10 @@
 			@include screenm {
 				font-size: 60px;
 			}
+
+			@include screenl {
+				font-size: 120px;
+			}
 		}
 
 		span {
@@ -35,6 +39,10 @@
 
 			@include screenm {
 				font-size: 35px;
+			}
+
+			@include screenl {
+				font-size: 60px;
 			}
 		}
 	}
@@ -53,6 +61,11 @@
 
 		@include screenm {
 			width: 160px;
+		}
+
+		@include screenl {
+			width: 190px;
+			border: 3px solid rgb(248, 248, 248);
 		}
 
 		&:hover {

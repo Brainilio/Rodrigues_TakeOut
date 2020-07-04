@@ -11,11 +11,15 @@ const About = (props) => {
 					repellendus quo magni quisquam a laboriosam eum quaerat sequi maiores,
 					optio eligendi. Minima, tenetur aperiam!
 				</p>
-				{/* <button className='see-menu'>
+				{/* <button className='see-menu'>	
 						<strong>SEE MENU</strong>
 					</button> */}
 			</div>
-			<div className='picture'></div>
+			<img
+				className='picture'
+				alt='brainilio'
+				src='https://via.placeholder.com/50'
+			/>
 		</div>
 	)
 }

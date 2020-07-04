@@ -25,19 +25,34 @@
 			width: 200px;
 			height: 180px;
 			background-color: black;
+
+			@include screenl {
+				width: 300px;
+				height: 300px;
+			}
 		}
 
 		span {
 			margin-top: 5px;
 			margin-bottom: 0;
+
 			@include screenm {
 				font-size: 18px;
 			}
+
+			@include screenl {
+				font-size: 25px;
+			}
 		}
+
 		h3 {
 			margin: 5px 0;
 			@include screenm {
 				font-size: 25px;
+			}
+
+			@include screenl {
+				font-size: 35px;
 			}
 		}
 		h1 {
@@ -46,6 +61,9 @@
 
 			@include screenm {
 				font-size: 40px;
+			}
+			@include screenl {
+				font-size: 50px;
 			}
 		}
 	}
