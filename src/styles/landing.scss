@@ -4,13 +4,18 @@
 	position: relative;
 	width: 100%;
 	min-height: 90vh;
+	height: 100%;
 	top: 0;
 	left: 0;
 	background-color: #8e82b8;
+	justify-content: space-evenly;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	flex-flow: column;
+
+	@include screenm {
+		height: 100%;
+	}
 
 	.landing-logo {
 		display: flex;
@@ -57,7 +62,6 @@
 		background: none;
 		border: 2px solid rgb(248, 248, 248);
 		transition: all 0.3s ease-in;
-		margin-top: 4em;
 
 		@include screenm {
 			width: 160px;
