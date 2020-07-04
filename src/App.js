@@ -43,7 +43,7 @@ class App extends Component {
 			<>
 				<Landing />
 				<About />
-				<Menu />
+				<Menu item={this.state.menu.chicken} />
 				<Contact />
 			</>
 		)

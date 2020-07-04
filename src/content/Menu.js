@@ -6,6 +6,18 @@ import CardSauce from "../components/CardSauce"
 import ItemDescription from "../components/Item_Description"
 
 const Menu = (props) => {
+	let sizes = props.item.sizes.map((size, index) => (
+		<CardSize
+			key={index}
+			sizeName={size.name}
+			Amount={size.amount}
+			price={size.price}
+		/>
+	))
+	let sauces = props.item.sauces.map((sauce, index) => (
+		<CardSauce key={index} sauceName={sauce} />
+	))
+
 	return (
 		<>
 			<div className='menu-divider'>
@@ -20,20 +32,9 @@ const Menu = (props) => {
 					ipsam facere id recusandae.'
 				/>
 				<MenuDivider title='CHOOSE YOUR SIZE' />
-				<div className='size-row'>
-					<CardSize sizeName='Regular' Amount='48 Wings' price={25} />
-					<CardSize sizeName='Double' Amount='64 Wings' price={35} />
-					<CardSize sizeName='Party' Amount='100 Wings' price={45} />
-				</div>
+				<div className='size-row'>{sizes}</div>
 				<MenuDivider title='CHOOSE YOUR SAUCE' />
-				<div className='size-row'>
-					<CardSauce sauceName="Hot 'n Spicy" />
-					<CardSauce sauceName='Garlic & Herbs' />
-					<CardSauce sauceName='Original BBQ' />
-					<CardSauce sauceName="Sweet 'n Spicy" />
-					<CardSauce sauceName='Teriyaki Glaze' />
-					<CardSauce sauceName='Maple BBQ' />
-				</div>
+				<div className='size-row'>{sauces}</div>
 			</div>
 		</>
 	)

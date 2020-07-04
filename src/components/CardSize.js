@@ -6,7 +6,7 @@ const CardSize = (props) => {
 			<div className='chicken-item-picture'></div>
 			{/* Single item description  */}
 			<span>{props.sizeName}</span>
-			<h3>{props.Amount}</h3>
+			<h3>{props.Amount} Wings</h3>
 			<h1>€{props.price}</h1>
 		</div>
 	)
