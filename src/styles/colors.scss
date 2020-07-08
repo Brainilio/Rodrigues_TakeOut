@@ -1,0 +1,23 @@
+// Color variables
+
+$colors: (
+	primary: rgb(0, 0, 0),
+	primary-light: rgb(255, 255, 255),
+	primary-dark: darken(rgb(177, 102, 102), 40%),
+	secondary: rgb(235, 212, 137),
+	secondary-light: lighten(rgb(235, 212, 137), 40%),
+	secondary-dark: darken(rgb(235, 212, 137), 40%),
+	positive: rgb(128, 196, 108),
+	accent: rgb(22, 22, 22),
+	shadowbackground:
+		linear-gradient(
+			150deg,
+			rgba(253, 249, 235, 1) 0%,
+			rgba(255, 255, 255, 1) 100%
+		),
+);
+
+// Function: getter for color
+@function color($color-name) {
+	@return map-get($colors, $color-name);
+}

@@ -84,7 +84,8 @@
 		margin-top: 2em;
 		width: 250px;
 		height: 250px;
-		background: #8e82b8;
+		object-fit: cover;
+		box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.596);
 
 		@include screenm {
 			display: block;
